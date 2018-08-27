@@ -1,0 +1,139 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Navid} \headerlastnamestyle{Nafiuzzaman} \\
+	\vspace{2mm}
+	{\faEnvelope\ mxn4459@rit.edu} | {\faMobile\ (347) 740-5118} | {\faMapMarker\ New York, NY} | {\faLink\ mxnavid.com}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{B.Sc in Computer Science, Minor in Computer Security}
+	{Rochester Institute of Technology}
+	{Rochester, NY}
+	{September 2016 – May 2021}
+	{}
+\end{cventries}
+
+\vspace{-2mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Work Experience}
+\begin{cventries}
+	\cventry
+	{Software Developer Intern}
+	{Architecture Technology Corporation}
+	{Ithaca, NY}
+	{August 2018 – Present}
+	{\begin{cvitems}
+		\item {Development of real time courseware to run on an advanced cyber-range}
+		\item {Developing programs for a big data analysis program}
+		\item {Pen-testing using open-source tools like Kali Linux, VyOS}
+		\item {Research and test vulnerabilities in sandbox for wide-range of software applications}
+		\end{cvitems}}
+	\cventry
+	{Software Engineering Intern}
+	{TBN24}
+	{New York, NY}
+	{May 2018 – July 2018}
+	{\begin{cvitems}
+		\item {Developing Python Script which sort and manage the ethnic movie and content database on the basis of rating, year and popularity for storage and reproduction of media content}
+		\item {Developed programs using TMDB API and Python to gather relevant information and populate the metadata of the existing media content}
+		\item {Bug Testing on the Android and Web Application of TBN24 by keeping track in the JIRA}
+		\item {Finding viable means of using the extracted data from customer for product enhancement}
+		\item {Used Git for version control and work in an agile environment with daily stand-ups}
+		\end{cvitems}}
+\end{cventries}
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Programming Skills:  & {\skill{ Python, Java, JavaScript, React Native, Bash, C, Bootstrap, Angular, HTML5, Pen-Testing}} \\
+		Developer Tools:  & {\skill{ Git, JIRA, Bitbucket, Vim, Jetbrains\textquotesingle{} IDE, VS Code, Emacs, Kali Linux}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-7mm}
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{Developed Android app using Java and Android Studio to show the location of nearest shelter during any natural disaster. Integrated Redcross API to get the location of the nearest shelter. Used Google Map API to show the visual representation of the closest shelter Enabling user to suggest location of shelter. Using the community review, the suggested location will be displayed as a recommended shelter}
+	{Nearest Shelter}
+	{Java, Googel Map API, Redcross API, Android Studio}
+	{}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Developed mobile application in cross-platform using react native. Implemented OCR with Google Cloud Vision API to detect the letters in the receipt (Python Backend). Integrated Venmo (Braintree), Square API with the application to split bills with friends and family right from the app. Currently building Web Application using ReactJS}
+	{Bill Splitter}
+	{React Native, Google Cloud Vision API, Python}
+	{}
+	{}
+	
+	\vspace{-5mm}
+\end{cventries}
+\cvsection{Activities}
+\begin{cvhonors}
+	\cvhonor
+	{RITficial Intelligence}
+	{Moderating the Freshman/Beginner\textquotesingle{}s group who are interested in learning Artificial Intelligence, Machine Learning, Deep Learning, etc. Coordinating and contributing in the website development of the club using Bootstrap. Design and implement new strategies to attract new members to the club. Directing and providing resources to the members interested in different branch of the club like GameAI, Image Processing, Natural Language Processing. Managing financial concerns of the club. Collaborate with other clubs of RIT in projects and events by establishing relationship.}
+	{Treasurer/Webdev Lead}
+	{February 2017 - Present}
+\end{cvhonors}
+\ 
+\end{document}
